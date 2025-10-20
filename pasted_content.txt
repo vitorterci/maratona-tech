@@ -1,0 +1,214 @@
+Nome Sugerido do Site: SignLingo | De Sinal para Sentido
+Descrição Principal (Hero Section - no topo do site):
+
+Imagine um mundo onde cada gesto é compreendido.
+
+Bem-vindo ao [Nome do Site], a ponte que conecta a Língua de Sinais ao mundo escrito. Use sua câmera para fazer um sinal e, em segundos, receba a tradução instantânea para o português.
+
+Como funciona?
+
+Mostre o Sinal: Use sua webcam ou faça o upload de uma foto.
+
+IA Analisa: Nossa inteligência artificial avançada decifra a configuração de mão, movimento e expressão facial.
+
+Receba a Tradução: A palavra ou expressão correspondente em português aparece na sua tela.
+
+[Experimente Agora - É Grátis] <-- (Botão de Call to Action)
+
+Descrição Detalhada (Para a página "Sobre Nós" ou "Como Funciona"):
+Título: Democratizando a Comunicação, Um Sinal de Cada Vez
+
+O [Nome do Site] é mais do que um tradutor; é uma ferramenta de inclusão e empoderamento. Desenvolvido com tecnologia de ponta em Visão Computacional e Aprendizado de Máquina, nossa plataforma tem a missão de quebrar as barreiras de comunicação entre surdos e ouvintes.
+
+Nosso foco é simples e direto: traduzir um sinal estático (uma foto) para a palavra escrita correspondente. É o recurso perfeito para:
+
+Pais e Familiares de Crianças Surdas: Aprenda o significado dos sinais que seu filho está usando e acelere o processo de aprendizado em conjunto.
+
+Estudantes de Libras: Teste seu conhecimento e verifique se está fazendo os sinais corretamente.
+
+Professores e Educadores: Incorpore tecnologia assistiva em sala de aula para criar um ambiente verdadeiramente inclusivo.
+
+Qualquer Pessoa Curiosa: Veja uma pessoa fazendo um sinal em uma foto ou vídeo e descubra rapidamente o que significa.
+
+O que nos torna únicos:
+
+Tradução Instantânea por Imagem: Basta uma foto para obter uma tradução precisa.
+
+Banco de Dados em Expansão: Nossa IA é continuamente treinada com milhares de sinais, abrangendo um vocabulário cada vez maior.
+
+Foco na Acessibilidade: Interface limpa, intuitiva e projetada para ser usada por todos.
+
+Precisão que Evolui: Quanto mais o sistema é usado, mais inteligente e preciso ele se torna.
+
+Nossa Missão:
+Acreditamos que a comunicação é um direito humano fundamental. Ao tornar a Língua de Sinais mais acessível e compreensível para todos, estamos construindo um futuro onde ninguém fica para trás por causa de uma barreira linguística.
+
+Junte-se a nós nessa jornada. Faça um sinal e descubra um novo mundo de possibilidades.
+
+Funcionalidades para Destaque em Tópicos:
+📸 Tradutor por Foto/Foto em Tempo Real: Envie uma imagem ou use sua câmera ao vivo.
+
+📚 Dicionário Visual Integrado: Explore sinais e seus significados em um catálogo organizado.
+
+🎯 Precisão com Feedback: O sistema aprende com correções dos usuários para melhorar continuamente.
+
+🌐 Acessível em Qualquer Dispositivo: Funciona perfeitamente no celular, tablet ou computador.
+
+🔒 Seguro e Privado: Suas imagens são processadas com total respeito à sua privacidade.
+
+Metatag para Motores de Busca (SEO):
+Título: Tradutor de Língua de Sinais por Foto | De Sinal para Palavra | [Nome do Site]
+
+Descrição: Traduza instantaneamente sinais de Língua de Sinais a partir de uma foto. Nosso site usa IA para decifrar gestos e fornecer a palavra em português. Perfeito para aprender Libras e promover inclusão. Experimente grátis!
+
+Esta descrição posiciona o site como uma ferramenta inovadora, útil e com um forte apelo social, atraindo tanto quem precisa da funcionalidade quanto quem se identifica com a causa da inclusão.
+
+agora descricao da aparencia
+Aqui está uma descrição da aparência visual e do design do site:
+
+Descrição da Aparência do Site: SignLingo
+Paleta de Cores Principal:
+
+Azul Serenidade (#4A90E2) - Cor primária, transmite confiança e calma
+
+Branco Puro (#FFFFFF) - Fundo principal para máxima legibilidade
+
+Cinza Claro (#F8F9FA) - Para áreas de destaque e divisões suaves
+
+Laranja Acessível (#FF6B35) - Cor de ação para botões e elementos interativos
+
+Tipografia:
+
+Títulos: 'Inter' - fonte sans-serif moderna e clean
+
+Texto Corporativo: 'Open Sans' - altamente legível
+
+Ícones: Biblioteca 'Font Awesome' para consistência visual
+
+Layout e Estrutura Visual:
+
+Header (Cabeçalho):
+
+Navbar transparente com logo à esquerda (ícone de mão estilizado + "SignLingo")
+
+Menu de navegação minimalista à direita
+
+Botão "Experimente Grátis" em laranja
+
+Hero Section (Área Principal):
+
+Fundo branco limpo com leve gradiente sutil
+
+Ilustração vetorial de duas mãos se conectando por ondas de comunicação
+
+Forma geométrica orgânica em azul claro no fundo, criando movimento
+
+Título principal em azul escuro, subtítulo em cinza médio
+
+Botão CTA grande e proeminente
+
+Área do Tradutor:
+
+Card branco elevado com sombra sutil
+
+Dois modos visuais em abas: "Câmera Ao Vivo" e "Upload de Foto"
+
+Visualizador de câmera com borda pontilhada azul
+
+Botão de captura circular com ícone de câmera
+
+Área de resultado com animação de digitação simulada
+
+Seção de Recursos:
+
+Grid de 3 colunas com cards ilustrados
+
+Ícones customizados em azul e laranja
+
+Títulos em negrito, descrição em cinza
+
+Hover suave com elevação dos cards
+
+Design System Característico:
+
+Cards e Elementos:
+
+Cantos arredondados (8px)
+
+Sombras suaves para profundidade
+
+Bordas finas em cinza muito claro
+
+Animações de fade-in ao rolar a página
+
+Botões:
+
+Primário: Laranja sólido com hover mais escuro
+
+Secundário: Azul com fundo transparente
+
+Bordas arredondadas consistentes
+
+Efeitos de transição suave em todos os hovers
+
+Formulários e Inputs:
+
+Campos com bordas sutis
+
+Placeholders em cinza claro
+
+Foco visível com borda laranja
+
+Botões de ação sempre contrastantes
+
+Microinterações:
+
+Loader personalizado com animação de ondas
+
+Feedback visual imediato nas ações
+
+Transições suaves entre estados
+
+Confirmações com ícones animados
+
+Design Responsivo:
+
+Breakpoints claros para mobile/tablet/desktop
+
+Menu hamburger elegante em mobile
+
+Grid que se adapta gracefulmente
+
+Tamanhos de fonte escaláveis
+
+Elementos Visuais Únicos:
+
+Padrão geométrico sutil de fundo inspirado em sinais
+
+Linhas de conexão entre seções principais
+
+Ícones de mãos estilizados como elementos decorativos
+
+Uso espaçoso com ampla respiração
+
+Acessibilidade Visual:
+
+Alto contraste em todos os textos
+
+Ícones sempre acompanhados de labels
+
+Foco keyboard visível
+
+Cores testadas para daltonismo
+
+Tom Geral:
+
+Clean e Moderno: Muito espaço em branco, elementos bem organizados
+
+Aconchegante: Cores suaves que transmitem segurança
+
+Profissional: Layout estruturado mas não rígido
+
+Inclusivo: Design que comunica acessibilidade desde o primeiro olhar
+
+O resultado é uma interface que equilibra sofisticação técnica com calor humano, refletindo a missão de conectar pessoas através da tecnologia.

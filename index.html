@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Tradutor de Língua de Sinais por Foto | De Sinal para Palavra | SignLingo" />
+  <meta name="description" content="Traduza instantaneamente sinais de Língua de Sinais a partir de uma foto. Nosso site usa IA para decifrar gestos e fornecer a palavra em português. Perfeito para aprender Libras e promover inclusão. Experimente grátis!" />
+  <title>SignLingo - De Sinal para Sentido</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="./logo_signlingo_abstract.png" alt="SignLingo Logo" class="logo-img">
+      <div>
+        <h1>SignLingo</h1>
+        <p class="tagline">De Sinal para Sentido</p>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#tradutor">Tradutor</a></li>
+        <li><a href="#como-funciona">Como Funciona</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><button class="btn-accent">Experimente Agora</button></li>
+        <li><i class="fas fa-moon dark-mode-toggle" id="darkModeToggle"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Imagine um mundo onde cada gesto é compreendido.</h2>
+        <p>Bem-vindo ao SignLingo, a ponte que conecta a Língua de Sinais ao mundo escrito. Use sua câmera para fazer um sinal e, em segundos, receba a tradução instantânea para o português.</p>
+        <div class="cta-buttons">
+          <button class="btn-accent">Experimente Agora - É Grátis</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./banner_signlingo.png" alt="Banner SignLingo" class="hero-banner-img">
+      </div>
+    </section>
+
+    <section id="como-funciona" class="section-how-it-works">
+      <h3>Como funciona?</h3>
+      <div class="steps">
+        <div class="card">
+          <i class="fas fa-hand-point-up"></i> <!-- Ícone para 'Mostre o Sinal' -->
+          <h4>Mostre o Sinal</h4>
+          <p>Use sua webcam ou faça o upload de uma foto.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-robot"></i> <!-- Ícone para 'IA Analisa' -->
+          <h4>IA Analisa</h4>
+          <p>Nossa inteligência artificial avançada decifra a configuração de mão, movimento e expressão facial.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-language"></i> <!-- Ícone para 'Receba a Tradução' -->
+          <h4>Receba a Tradução</h4>
+          <p>A palavra ou expressão correspondente em português aparece na sua tela.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tradutor" class="tradutor">
+      <h3>Tradutor</h3>
+      <div class="tabs">
+        <button class="tab active" onclick="showTab('camera')"><i class="fas fa-video"></i> Câmera Ao Vivo</button>
+        <button class="tab" onclick="showTab('upload')"><i class="fas fa-upload"></i> Upload de Foto</button>
+      </div>
+      <div class="tab-content" id="camera">
+        <div class="camera-box"><i class="fas fa-camera"></i></div>
+        <button class="btn-capture"><i class="fas fa-camera"></i></button>
+      </div>
+      <div class="tab-content hidden" id="upload">
+        <input type="file" accept="image/*" />
+        <button class="btn-accent">Traduzir</button>
+        <p class="resultado">Resultado aparecerá aqui.</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="section-about">
+      <h3>Democratizando a Comunicação, Um Sinal de Cada Vez</h3>
+      <p>O SignLingo é mais do que um tradutor; é uma ferramenta de inclusão e empoderamento. Desenvolvido com tecnologia de ponta em Visão Computacional e Aprendizado de Máquina, nossa plataforma tem a missão de quebrar as barreiras de comunicação entre surdos e ouvintes.</p>
+      <p>Nosso foco é simples e direto: traduzir um sinal estático (uma foto) para a palavra escrita correspondente. É o recurso perfeito para:</p>
+      <div class="publico">
+        <div class="card">
+          <i class="fas fa-hands-holding-child"></i> <!-- Ícone para 'Pais e Familiares de Crianças Surdas' -->
+          <h4>Pais e Familiares de Crianças Surdas</h4>
+          <p>Aprenda o significado dos sinais que seu filho está usando e acelere o processo de aprendizado em conjunto.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-user-graduate"></i>
+          <h4>Estudantes de Libras</h4>
+          <p>Teste seu conhecimento e verifique se está fazendo os sinais corretamente.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-chalkboard-user"></i> <!-- Ícone para 'Professores e Educadores' -->
+          <h4>Professores e Educadores</h4>
+          <p>Incorpore tecnologia assistiva em sala de aula para criar um ambiente verdadeiramente inclusivo.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-magnifying-glass"></i> <!-- Ícone para 'Qualquer Pessoa Curiosa' -->
+          <h4>Qualquer Pessoa Curiosa</h4>
+          <p>Veja uma pessoa fazendo um sinal em uma foto ou vídeo e descubra rapidamente o que significa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-unique">
+      <h3>O que nos torna únicos:</h3>
+      <div class="grid unique-features">
+        <div class="feature">
+          <i class="fas fa-camera-retro"></i>
+          <h4>Tradução Instantânea por Imagem</h4>
+          <p>Basta uma foto para obter uma tradução precisa.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-database"></i>
+          <h4>Banco de Dados em Expansão</h4>
+          <p>Nossa IA é continuamente treinada com milhares de sinais, abrangendo um vocabulário cada vez maior.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-universal-access"></i>
+          <h4>Foco na Acessibilidade</h4>
+          <p>Interface limpa, intuitiva e projetada para ser usada por todos.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-chart-line"></i>
+          <h4>Precisão que Evolui</h4>
+          <p>Quanto mais o sistema é usado, mais inteligente e preciso ele se torna.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="recursos" class="section-mission">
+      <h3>Nossa Missão</h3>
+      <p>Acreditamos que a comunicação é um direito humano fundamental. Ao tornar a Língua de Sinais mais acessível e compreensível para todos, estamos construindo um futuro onde ninguém fica para trás por causa de uma barreira linguística.</p>
+      <p>Junte-se a nós nessa jornada. Faça um sinal e descubra um novo mundo de possibilidades.</p>
+      <button class="btn-accent">Comece Sua Jornada</button>
+    </section>
+
+    <section class="section-highlights">
+      <h3>Funcionalidades para Destaque</h3>
+      <div class="grid highlight-features">
+        <div class="feature">
+          <i class="fas fa-camera-retro"></i>
+          <h4>Tradutor por Foto/Foto em Tempo Real</h4>
+          <p>Envie uma imagem ou use sua câmera ao vivo.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-book-open"></i>
+          <h4>Dicionário Visual Integrado</h4>
+          <p>Explore sinais e seus significados em um catálogo organizado.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-bullseye"></i>
+          <h4>Precisão com Feedback</h4>
+          <p>O sistema aprende com correções dos usuários para melhorar continuamente.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-mobile-alt"></i>
+          <h4>Acessível em Qualquer Dispositivo</h4>
+          <p>Funciona perfeitamente no celular, tablet ou computador.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-lock"></i>
+          <h4>Seguro e Privado</h4>
+          <p>Suas imagens são processadas com total respeito à sua privacidade.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>SignLingo</h4>
+        <p>Tradução de sinais com tecnologia de ponta.</p>
+      </div>
+      <div>
+        <h5>Links</h5>
+        <ul>
+          <li><a href="#tradutor">Tradutor</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <p>Email: contato@signlingo.com</p>
+        <p>Telefone: (41) 99999-0000</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 SignLingo — Por um mundo mais inclusivo.
+    </div>
+  </footer>
+</body>
+</html>
+
